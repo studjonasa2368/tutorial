@@ -17,7 +17,7 @@ public class GreetingTest {
 		g.greet();
 
 		// verify that it happened
-		assertEquals("Hello, Hans!", out.toString().trim());
+		assertEquals("Hans", out.toString().trim());
 
 		// release it
 		System.setOut(null);
